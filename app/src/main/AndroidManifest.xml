@@ -16,7 +16,53 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Kodi" >
+
+            <intent-filter>
+                <action android:name=".Kodi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Miniootty" >
+
+            <intent-filter>
+                <action android:name=".Miniootty" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Kottakkunnu" >
+            <intent-filter>
+                <action android:name=".Kottakkunnu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Kumaragiri" >
+            <intent-filter>
+                <action android:name=".Kumaragiri" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Nedumkayam" >
+            <intent-filter>
+                <action android:name=".Nedumkayam" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Nilambur">
+            <intent-filter>
+                <action android:name=".Nilambur" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
